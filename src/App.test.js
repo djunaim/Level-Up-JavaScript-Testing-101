@@ -5,7 +5,7 @@ import { total } from './App';
 //test function when don't have access to function
 const add = jest.fn(() => 3);
 
-//Nnit test - only tests one thing
+//Unit test - only tests one thing
 test('add', () => {
   //assertion
   // const value = add(1,2);
